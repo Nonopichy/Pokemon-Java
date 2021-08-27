@@ -156,7 +156,7 @@ public class Main extends Canvas implements Runnable, KeyListener {
 
          }
 
-            ;
+            ;;;;;;;
     }
 
     @Override
