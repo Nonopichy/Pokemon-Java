@@ -45,7 +45,7 @@ public class Main extends Canvas implements Runnable, KeyListener {
 
         mp3 = new MP3("data/sounds/bg/b1.mp3");
         mp3.play();
-////
+
         try {
 
             InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resource/Font.ttf");
