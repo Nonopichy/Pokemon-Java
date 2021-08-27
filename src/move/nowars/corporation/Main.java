@@ -42,12 +42,9 @@ public class Main extends Canvas implements Runnable, KeyListener {
         Dimension dimension = new Dimension(largura, altura);
         setPreferredSize(dimension);
         addKeyListener(this);
-
         mp3 = new MP3("data/sounds/bg/b1.mp3");
         mp3.play();
-
         try {
-
             InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resource/Font.ttf");
             font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(12f);
         } catch (FontFormatException e) {
@@ -63,7 +60,7 @@ public class Main extends Canvas implements Runnable, KeyListener {
 
         maker = new Maker("/resource/mapa.txt");
 
-        world = new World("Nome",maker.largura,maker.altura);
+        world = new World("Mundo",maker.largura,maker.altura);
         world.blocks = maker.blocks;
         world.setSpawn(new Location(world, world.width/2, world.height/2));
 
