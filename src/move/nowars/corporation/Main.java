@@ -162,6 +162,7 @@ public class Main extends Canvas implements Runnable, KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
         player.movement = false;
+        System.out.println("asas");
     }
 
 }
