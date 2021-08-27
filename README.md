@@ -1,4 +1,4 @@
-[![Build Status](https://i.imgur.com/nCjjobW.png)](https://github.com/Nonopichy/Pokemon-Java/raw/master/Pokemon-Java.jar)
+![GitHub last commit](https://img.shields.io/badge/download-rar-green)
 ## Pokemon-Java
 * Consiste em um jogo que o objetivo é o estudo, utilizando recursos e ideias do Pokemon Emerald (Não necessariamente).
 
